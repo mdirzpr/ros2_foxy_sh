@@ -5,4 +5,6 @@ Bash file for installing ros2 foxy
 
 For running the bash file use this command:
 
+```bash
 bash ./ros2_foxy.sh
+```
