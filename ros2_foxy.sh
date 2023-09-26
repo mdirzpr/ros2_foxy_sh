@@ -42,10 +42,13 @@ sudo apt install ros-dev-tools
 
 if [ "$VERSION" = "2" ]; then
   # cpp demo nodes
-  sudo apt install ros-humble-demo-nodes-cpp
+  sudo apt install ros-foxy-demo-nodes-cpp
 fi
 
+sudo apt install python3-colcon-common-extensions
+
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 source .bashrc
 
 # Examples for testing ROS2
